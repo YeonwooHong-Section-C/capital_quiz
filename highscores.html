@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,17 +8,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="highscores.css">
 </head>
-
 <body>
     <div class="container">
-        <div id="home" class="flex-column flex-center">
-            <h1>World Capitals Quiz</h1>
-            <a href="game.html" class="btn">🚀Play🚀</a>
-            <a href="highscores.html" id="highscore-btn" class="btn">✨Podium✨</a>
+        <div id="highScore" class="flex-center flex-column">
+            <h1 id="finalScore">Leaderboard</h1>
+            <ul id="highScoresList"></ul>
+            <a href="index.html" class="btn">Home</a>
         </div>
     </div>
-
+    <script src="highscores.js"></script>
 </body>
-
 </html>
