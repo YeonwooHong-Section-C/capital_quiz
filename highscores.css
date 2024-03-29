@@ -1,5 +1,6 @@
 body {
-    color: white;
+    color: aquamarine;
+    text-shadow: 2px 2px #FF0000;
 }
 
 #highScoresList {
@@ -8,6 +9,18 @@ body {
 }
 
 .high-score {
-    font-size: 2.8rem;
-    margin-bottom: 0.5rem;
+    font-size: 3.8rem;
+    margin-bottom: 0.9rem;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 0.875rem;
+    }
+}
+  
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 0.65rem;
+    }
 }

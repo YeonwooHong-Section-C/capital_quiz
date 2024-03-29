@@ -6,15 +6,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* media query? */
     font-size: medium;
     font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-style: normal;
+    text-shadow: 2px 2px #FF0000;
 }
 
 h1{
-    font-size: 5.4rem;
+    font-size: 3.4rem;
     color: aquamarine;
     margin-bottom: 5rem;
 }
@@ -64,8 +64,8 @@ h2{
     text-align: center;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: blueviolet;
-    background: linear-gradient(red, white);
+    color: rgb(125, 54, 191);
+    background: linear-gradient(#FF0000, white);
     border-radius: 4px;
 }
 
@@ -83,7 +83,7 @@ h2{
 }
 
 #highscore-btn{
-    background: linear-gradient(red, yellow);
+    background: linear-gradient(#FF0000, yellow);
 }
 
 #highstore-btn:hover{
@@ -91,6 +91,10 @@ h2{
 }
 
 /* end.html */
+#finalScore{
+    margin-top: 4rem;
+}
+
 input {
     margin-bottom: 1rem;
     width: 20rem;
@@ -108,12 +112,14 @@ input::placeholder{
     margin-bottom: 3rem;
     width: 100%;
     outline: none;
+    color: rgb(125, 54, 191);
 }
 
 #end-text{
     font-size: 2.4rem;
-    color: slategray;
+    color: rgb(125, 54, 191);
     text-align: center;
+    
 }
 
 #saveScoreBtn {
